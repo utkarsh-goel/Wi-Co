@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+    /**
+     * Created by Utkarsh Goel on 17-Nov-16.
+     * ​Utkarsh Goel
+     *ABV-Indian Institute of Information Technology & Management,
+     *Gwalior-474 015, India
+     */
+
+    /*Copyright Utkarsh Goel
+    *Copyright infringement is the use of works protected by copyright law
+    * without permission, infringing certain exclusive rights granted to the copyright holder,
+    * such as the right to reproduce, distribute, display or perform the protected work, or to make derivative works.
+    * It is a punishable offence under Copyright Act, 1957
+     */
+ -->
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mouse"
+            android:icon="@drawable/trackpad"
+            android:title="Track Pad" />
+        <item
+            android:id="@+id/keyboard"
+            android:icon="@drawable/keyboard"
+            android:title="Keyboard" />
+    </group>
+
+    <item android:title="Utilities">
+        <menu>
+            <item
+                android:id="@+id/vlc"
+                android:icon="@drawable/vlc"
+                android:title="Media Controls" />
+
+            <item
+                android:id="@+id/powerpoint"
+                android:icon="@drawable/powerpt"
+                android:title="PowerPoint" />
+
+        </menu>
+    </item>
+
+    <item android:title="Options">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+
+            <item
+                android:id="@+id/exit"
+                android:icon="@drawable/exit"
+                android:title="EXIT" />
+
+        </menu>
+    </item>
+
+</menu>
