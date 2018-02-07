@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_screen1">
+    <!--
+        /**
+         * Created by Utkarsh Goel on 17-Nov-16.
+         * ​Utkarsh Goel
+         *ABV-Indian Institute of Information Technology & Management,
+         *Gwalior-474 015, India
+         */
+
+        /*Copyright Utkarsh Goel
+        *Copyright infringement is the use of works protected by copyright law
+        * without permission, infringing certain exclusive rights granted to the copyright holder,
+        * such as the right to reproduce, distribute, display or perform the protected work, or to make derivative works.
+        * It is a punishable offence under Copyright Act, 1957
+         */
+     -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/img_width_height"
+            android:layout_height="@dimen/img_width_height"
+            android:src="@drawable/remote_control" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/slide_1_title"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/slide_title"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="@dimen/desc_padding"
+            android:paddingRight="@dimen/desc_padding"
+            android:text="@string/slide_1_desc"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/slide_desc" />
+
+    </LinearLayout>
+</RelativeLayout>

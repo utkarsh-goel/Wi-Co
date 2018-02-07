@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+    <!--
+        /**
+         * Created by Utkarsh Goel on 17-Nov-16.
+         * ​Utkarsh Goel
+         *ABV-Indian Institute of Information Technology & Management,
+         *Gwalior-474 015, India
+         */
+
+        /*Copyright Utkarsh Goel
+        *Copyright infringement is the use of works protected by copyright law
+        * without permission, infringing certain exclusive rights granted to the copyright holder,
+        * such as the right to reproduce, distribute, display or perform the protected work, or to make derivative works.
+        * It is a punishable offence under Copyright Act, 1957
+         */
+     -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <include
+        layout="@layout/app_bar_navigation_drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:id="@+id/flContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
+
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_navigation_drawer"
+        app:menu="@menu/activity_navigation_drawer_drawer" />
+
+</android.support.v4.widget.DrawerLayout>

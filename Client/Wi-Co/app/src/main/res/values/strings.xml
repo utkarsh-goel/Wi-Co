@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Wi-Co</string>
+    <string name="action_connect">action_connect</string>
+    <!--
+        /**
+         * Created by Utkarsh Goel on 17-Nov-16.
+         * ​Utkarsh Goel
+         *ABV-Indian Institute of Information Technology & Management,
+         *Gwalior-474 015, India
+         */
+
+        /*Copyright Utkarsh Goel
+        *Copyright infringement is the use of works protected by copyright law
+        * without permission, infringing certain exclusive rights granted to the copyright holder,
+        * such as the right to reproduce, distribute, display or perform the protected work, or to make derivative works.
+        * It is a punishable offence under Copyright Act, 1957
+         */
+     -->
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="slide_1_title">Welcome People!!</string>
+    <string name="slide_1_desc">Now Control your PC from your mobile !!</string>
+
+    <string name="slide_2_title">Wireless Connectivity</string>
+    <string name="slide_2_desc">Gooooooood Range</string>
+
+    <string name="slide_3_title">Easy of Use</string>
+    <string name="slide_3_desc">The simple UI enhances the usability and appeal of the app!</string>
+
+    <string name="slide_4_title">On-the-Go</string>
+
+    <string name="title_activity_intro">About the app</string>
+    <string name="title_activity_introslider">About the app</string>
+    <string name="title_activity_navigation__drawer">Wi-Co</string>
+    <string name="title_activity_navigation_drawer">Wi-Co</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

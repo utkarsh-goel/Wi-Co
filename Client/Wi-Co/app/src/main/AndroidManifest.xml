@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.utkarshgoel.wi_co">
+
+    <!--
+        /**
+         * Created by Utkarsh Goel on 17-Nov-16.
+         * ​Utkarsh Goel
+         *ABV-Indian Institute of Information Technology & Management,
+         *Gwalior-474 015, India
+         */
+
+        /*Copyright Utkarsh Goel
+        *Copyright infringement is the use of works protected by copyright law
+        * without permission, infringing certain exclusive rights granted to the copyright holder,
+        * such as the right to reproduce, distribute, display or perform the protected work, or to make derivative works.
+        * It is a punishable offence under Copyright Act, 1957
+         */
+     -->
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/remote_control_icon"
+        android:label="Wi-Co"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="com.example.utkarshgoel.wi_co.WelcomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.example.utkarshgoel.wi_co.Connect"
+                  android:screenOrientation="portrait"
+            />
+
+        <activity
+            android:name="com.example.utkarshgoel.wi_co.Navigation_drawer"
+            android:label="@string/title_activity_navigation_drawer"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+    </application>
+
+</manifest>

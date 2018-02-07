@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@drawable/bckgrnd"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    <!--
+        /**
+         * Created by Utkarsh Goel on 17-Nov-16.
+         * ​Utkarsh Goel
+         *ABV-Indian Institute of Information Technology & Management,
+         *Gwalior-474 015, India
+         */
+
+        /*Copyright Utkarsh Goel
+        *Copyright infringement is the use of works protected by copyright law
+        * without permission, infringing certain exclusive rights granted to the copyright holder,
+        * such as the right to reproduce, distribute, display or perform the protected work, or to make derivative works.
+        * It is a punishable offence under Copyright Act, 1957
+         */
+     -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        app:srcCompat="@drawable/remote_control" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="1dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="@string/app_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Wireless Controller for your PC" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="© Utkarsh Goel" />
+
+</LinearLayout>
